@@ -1,0 +1,64 @@
+body {
+  font-family: "palatino",times, sans-serif;
+  background: #000;
+  color: #fff;
+  font-size: 1.2em;
+}
+#container {
+  width: 750px;
+  margin: 40px auto;
+  overflow: auto;
+  border: 2px solid green;
+}
+header {
+  background: #333;
+  padding: 10px;
+  text-align: center;
+}
+.tags {
+  height: 200px;
+  border: 1px solid #ccc;
+  margin: 30px;
+  padding: 15px;
+}
+.tags li {
+  list-style: none;
+  line-height: 1.7em;
+}
+footer {
+  padding: 10px;
+  background: #333;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+input.name, input.tagInput {
+  padding: 3px;
+  height: 15px;
+}
+.name {
+  width: 130px;
+  margin-right: 20px;
+
+}
+input.tagInput {
+  width: 270px;
+}
+button {
+  font-size: 17px;
+  border: 0;
+  background: #666;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid orange;
+  float: right;
+  margin-top: -26px;
+  width: 80px;
+}
+button:hover {
+  color: orange;
+  border: 1px solid #ccc;
+  background: #333;
+}
+form {
+  margin-right: 60px;
+}
