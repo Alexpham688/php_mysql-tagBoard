@@ -19,11 +19,11 @@
       <div class="tags">
           <ul>
             <?php while($row === mysqli_fetch_assoc($tags)) : ?>
-              <li> <?php //echo $row['name' ];?> :
-                   <?php// echo $row['tag']; ?>
-                   [<?php //echo $row['date']; ?>]
+              <li> <?php echo $row['name' ];?> :
+                   <?php echo $row['tag']; ?>
+                   [<?php echo $row['date']; ?>]
                 </li>
-            <?php //endwhile; ?>
+            <?php endwhile; ?>
 
           </ul>
       </div>
